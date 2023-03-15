@@ -1,0 +1,169 @@
+body, html {
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    font-weight: 400;
+}
+
+h2, h3, h4 {
+    font-weight: 400;
+}
+
+#navbar {
+    background-color: black;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#navbar a{
+    color:white;
+    text-decoration: none;
+    margin: 5px;
+}
+
+#title-logo {
+    font-size: 20px;
+}
+
+#nav-links {
+    font-size: 10px;
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+
+#hero-image{
+    background-image: url("/images/theater-image-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    position: relative;
+    background-position: center;
+    display: flex;
+    height: 40vh;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size:20pt;
+}
+
+#weird-empty-space {
+    height: 5vh;
+    background-color: white;
+}
+
+#show-holder{
+    width: 80vw;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+#date-bar {
+    width: 100%;
+    background-color: rgb(246, 246, 246);
+    color: black;
+    padding-left: 10px;
+    border: 1px solid lightgray;
+}
+
+#date-bar > p {
+    margin: 1px auto;
+    padding-left: 20px;
+}
+
+.event-card{
+    color: black;
+    display: flex;
+    width: 80vw;
+    flex-wrap: wrap;
+    flex-wrap: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+.event-card > * {
+    margin: 10px auto;
+}
+
+.image-holder {
+    padding: 5px;
+    align-self: flex-start;
+}
+
+.event-image {
+    max-width: 125px;
+    min-width: 40px;
+}
+
+.event-text {
+    width: 200px;
+}
+
+.event-text > h2{
+    font-size: 11pt;
+    font-weight: 400;
+}
+
+.event-text > h3 {
+    font-size: 9pt;
+}
+
+.event-text > h4 {
+    font-size: 8pt;
+}
+
+hr {
+    color:lightgray;
+    background-color: lightgray;
+    outline-color: lightgray;
+    width: 80vw;
+}
+
+.read-more-button {
+    color:white;
+    height: 40px;
+    width: 120px;
+    background-color: rgb(228, 169, 29);
+    outline: 0.5px solid lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13pt;
+    border: none;
+}
+
+#footer {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 25px;
+    color:white;
+}
+
+#map {
+    height: 120px;
+    object-fit: fill;
+    padding-top: 25px;
+}
+
+#footer p {
+    font-size:10px;
+    margin: 25px auto;
+}
+
+i {
+    color: rgb(158, 99, 22);
+}
+
+#info, #shows, #social {
+    width: 150px;
+}
